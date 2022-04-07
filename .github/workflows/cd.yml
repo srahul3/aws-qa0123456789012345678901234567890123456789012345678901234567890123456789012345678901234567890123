@@ -15,6 +15,6 @@ jobs:
     - name: Configure AWS credentials from Test account
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::725057630416:role/oidc_env
-        role-session-name: oidc_env
+        role-to-assume: arn:aws:iam::725057630416:role/oidc-expression
+        role-session-name: oidc-expression
         aws-region: us-east-1
